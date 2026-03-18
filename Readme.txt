@@ -41,7 +41,7 @@
 | Public Subnets | 2 | One per AZ |
 | Private Subnets | 2 | One per AZ |
 | Internet Gateway | 1 | Enables public internet access |
-| NAT Gateway | 1 | Outbound internet for private subnets |
+| NAT Gateway | 1 | Outbound internet for private subnets | NAT gateway i have commented , because its not free.
 | EC2 Instances | 2 | t2.micro (free tier), Nginx installed |
 | S3 Bucket | 1 | Encrypted, versioned, private |
 | IAM Role | 1 | EC2 → S3 access, least privilege |
